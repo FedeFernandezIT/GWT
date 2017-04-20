@@ -1,0 +1,13 @@
+binding: user.agent=gecko1_8
+Compiling module org.gwtproject.tutorial.TodoList
+   Computing all possible rebind results for 'org.gwtproject.tutorial.client.Main.MainUiBinder'
+      Rebinding org.gwtproject.tutorial.client.Main.MainUiBinder
+         Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+            [ERROR] Method 'onConfirmAddButtonClick' must have a single event parameter defined.
+   [ERROR] Errors in 'org/gwtproject/tutorial/client/Main.java'
+      [ERROR] Line 19: Failed to resolve 'org.gwtproject.tutorial.client.Main.MainUiBinder' via deferred binding
+   [WARN] For the following type(s), generated source was never committed (did you forget to call commit()?)
+      [WARN] org.gwtproject.tutorial.client.Main_MainUiBinderImpl
+   Unification traversed 1070 fields and methods and 335 types. 20 are considered part of the current module and 39 had all of their fields and methods traversed.
+   [WARN] Some stale types ([org.gwtproject.tutorial.client.Main_MainUiBinderImpl, org.gwtproject.tutorial.client.Main_MainUiBinderImpl$Widgets]) were not reprocessed as was expected. This is either a compiler bug or a Generator has legitimately stopped creating these types.
+[ERROR] Compiler returned false

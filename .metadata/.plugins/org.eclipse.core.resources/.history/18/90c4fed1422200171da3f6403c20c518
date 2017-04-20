@@ -1,0 +1,14 @@
+package com.google.gwt.sample.stockwatcher.client;
+
+import com.google.gwt.core.client.JavaScriptObject;
+
+class StockData extends JavaScriptObject {
+	// Overlay types always have protected, zero argument constructors.
+	protected StockData() {		
+	}
+	
+	// JSNI methods to get stock data.
+	public static native String getSymbol()	/*-{ return this.symbol; }-*/;
+	public static native double getPrice()	/*-{ return this.price; }-*/;
+	public static native double getChange()	/*-{ return this.change; }-*/;
+}

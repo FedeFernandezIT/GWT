@@ -1,0 +1,13 @@
+binding: user.agent=gecko1_8
+Compiling module org.gwtproject.tutorial.TodoList
+   Unification traversed 1157 fields and methods and 320 types. 11 are considered part of the current module and 30 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 11 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 4,228s
+Linking into C:\NunaIT\Training\GWT\TodoListApp\target\gwt\devmode\work\org.gwtproject.tutorial.TodoList\compile-4\war\todolist; Writing extras to C:\NunaIT\Training\GWT\TodoListApp\target\gwt\devmode\work\org.gwtproject.tutorial.TodoList\compile-4\extras\todolist
+   Link succeeded
+   Linking succeeded -- 21,523s
+38,957s total -- Compile completed

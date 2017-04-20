@@ -1,0 +1,5 @@
+-------------------------------------------------------------------------------
+Test set: org.gwtproject.tutorial.client.GwtTestTodoList
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.806 sec
+testFieldVerifier(org.gwtproject.tutorial.client.GwtTestTodoList)  Time elapsed: 58.754 sec

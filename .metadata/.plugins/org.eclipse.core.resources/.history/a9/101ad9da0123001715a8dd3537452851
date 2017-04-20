@@ -1,0 +1,67 @@
+package com.google.gwt.sample.stockwatcher.client;
+
+import com.google.gwt.junit.client.GWTTestCase;
+import com.google.gwt.user.client.Timer;
+
+/**
+ * GWT JUnit tests must extend GWTTestCase.
+ */
+public class StockWatcherTest extends GWTTestCase {
+
+  /**
+   * Must refer to a valid module that sources this class.
+   */
+  public String getModuleName() {
+    return "com.google.gwt.sample.stockwatcher.StockWatcherJUnit";
+  }
+
+  /**
+   * Tests the FieldVerifier.
+   */
+  public void testSmaple() {    
+    assertTrue(true);
+  }
+  
+  
+  /**
+   * Verify that the instance fields in the StockPrice class are set correctly.
+   */
+  public void testStockPriceCtor() {
+	String symbol = "XYZ";
+	double price = 70.0;
+	double change = 2.0;
+	double changePercent = 100.0 * change / price;
+	
+	StockPrice sp = new StockPrice(symbol, price, change);
+	assertNotNull(sp);
+	assertEquals(symbol, sp.getSymbol());
+	assertEquals(price, sp.getPrice(), 0.001);
+	assertEquals(change, sp.getChange(), 0.001);	
+	assertEquals(changePercent, sp.getChangePercent(), 0.001);
+  }
+
+  
+  /**
+   * Test asynchronous
+   */
+  public void testStockPrice() {
+	final StockWatcher stockWatcher;
+	// Setup an asynchronous event handler.  
+	Timer timer = new Timer() {		
+		@Override
+		public void run() {
+			// do some validation logic
+
+			// tell the test system the test is now done
+			finishTest();
+		}
+	};
+	
+	// Set a delay period significantly longer than the
+	// event is expected to take.
+	delayTestFinish(5000);
+	
+	// Schedule the event and return control to the test system.
+	timer.schedule(100);
+  }
+}

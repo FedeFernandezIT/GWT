@@ -1,0 +1,12 @@
+/** Add css rules here for your application. */
+/* Formatting specific to the StockWatcher application */
+body {
+	padding: 10px;
+}
+
+/* stock list header row */
+.wacthListHeader {
+	background-color: #2062B8;
+	color: white;
+	font-style: italic;
+}

@@ -1,0 +1,30 @@
+Testsuite: com.google.gwt.sample.stockwatcher.StockWatcherSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28,954 sec
+
+Testcase: testStockPriceCtor took 28,261 sec
+	FAILED
+expected: within <0.001> of <2>, actual: <2.857142857142857>
+junit.framework.AssertionFailedError: expected: within <0.001> of <2>, actual: <2.857142857142857>
+	at java.lang.Throwable.Throwable(Throwable.java:74)
+	at java.lang.Error.Error(Error.java:30)
+	at junit.framework.AssertionFailedError.AssertionFailedError(AssertionError.java:51)
+	at com.google.gwt.sample.stockwatcher.client.StockWatcherTest.testStockPriceCtor(StockWatcherTest.java:38)
+	at Unknown.anonymous(GWTTestMetadataImpl.java:9)
+	at com.google.gwt.junit.client.impl.GWTTestAccessor.$invoke(GWTTestAccessor.java:35)
+	at com.google.gwt.junit.client.impl.GWTRunner.$executeTestMethod(GWTRunner.java:226)
+	at com.google.gwt.junit.client.GWTTestCase.$doRunTest(GWTTestCase.java:157)
+	at com.google.gwt.junit.client.GWTTestCase.$runBare(TestCase.java:59)
+	at com.google.gwt.junit.client.GWTTestCase.$__doRunTest(GWTTestCase.java:115)
+	at com.google.gwt.junit.client.impl.GWTRunner.$runTest(GWTRunner.java:302)
+	at com.google.gwt.junit.client.impl.GWTRunner.$doRunTest(GWTRunner.java:235)
+	at com.google.gwt.junit.client.impl.GWTRunner$TestBlockListener.$onSuccess(GWTRunner.java:106)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.$onSuccess(GWTRunner.java:61)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.onSuccess(GWTRunner.java:59)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.$onResponseReceived(RequestCallbackAdapter.java:232)
+	at com.google.gwt.http.client.Request.$fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at Unknown.anonymous(XMLHttpRequest.java:329)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java:239)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:298)
+	at Unknown.anonymous(Impl.java:77)
+

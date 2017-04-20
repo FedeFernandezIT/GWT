@@ -1,0 +1,41 @@
+Testsuite: com.google.gwt.sample.stockwatcher.StockWatcherSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20,464 sec
+
+Testcase: testStockPriceCtor took 19,863 sec
+	FAILED
+expected: within <0.001> of <2.0>, actual: <2.857142857142857>
+junit.framework.AssertionFailedError: expected: within <0.001> of <2.0>, actual: <2.857142857142857>
+	at com.google.gwt.sample.stockwatcher.client.StockWatcherTest.testStockPriceCtor(StockWatcherTest.java:38)
+	at com.google.gwt.junit.client.impl.GWTTestAccessor.invoke(GWTTestAccessor.java:39)
+	at com.google.gwt.junit.client.impl.GWTRunner.executeTestMethod(GWTRunner.java:226)
+	at com.google.gwt.junit.client.GWTTestCase.doRunTest(GWTTestCase.java:157)
+	at com.google.gwt.junit.client.GWTTestCase.runBare(GWTTestCase.java:151)
+	at com.google.gwt.junit.client.GWTTestCase.__doRunTest(GWTTestCase.java:115)
+	at com.google.gwt.junit.client.impl.GWTRunner.runTest(GWTRunner.java:302)
+	at com.google.gwt.junit.client.impl.GWTRunner.doRunTest(GWTRunner.java:235)
+	at com.google.gwt.junit.client.impl.GWTRunner.access$9(GWTRunner.java:229)
+	at com.google.gwt.junit.client.impl.GWTRunner$TestBlockListener.onSuccess(GWTRunner.java:106)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.onSuccess(GWTRunner.java:61)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.onSuccess(GWTRunner.java:1)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.onResponseReceived(RequestCallbackAdapter.java:232)
+	at com.google.gwt.http.client.Request.fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at com.google.gwt.dev.shell.MethodAdaptor.invoke(MethodAdaptor.java:103)
+	at com.google.gwt.dev.shell.MethodDispatch.invoke(MethodDispatch.java:72)
+	at com.google.gwt.dev.shell.OophmSessionHandler.invoke(OophmSessionHandler.java:172)
+	at com.google.gwt.dev.shell.BrowserChannelServer.reactToMessagesWhileWaitingForReturn(BrowserChannelServer.java:341)
+	at com.google.gwt.dev.shell.BrowserChannelServer.invokeJavascript(BrowserChannelServer.java:222)
+	at com.google.gwt.dev.shell.ModuleSpaceOOPHM.doInvoke(ModuleSpaceOOPHM.java:121)
+	at com.google.gwt.dev.shell.ModuleSpace.invokeNative(ModuleSpace.java:573)
+	at com.google.gwt.dev.shell.ModuleSpace.invokeNativeObject(ModuleSpace.java:293)
+	at com.google.gwt.dev.shell.JavaScriptHost.invokeNativeObject(JavaScriptHost.java:91)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:298)
+	at com.google.gwt.dev.shell.MethodAdaptor.invoke(MethodAdaptor.java:103)
+	at com.google.gwt.dev.shell.MethodDispatch.invoke(MethodDispatch.java:72)
+	at com.google.gwt.dev.shell.OophmSessionHandler.invoke(OophmSessionHandler.java:172)
+	at com.google.gwt.dev.shell.BrowserChannelServer.reactToMessages(BrowserChannelServer.java:296)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:551)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:368)
+	at java.lang.Thread.run(Thread.java:745)
+

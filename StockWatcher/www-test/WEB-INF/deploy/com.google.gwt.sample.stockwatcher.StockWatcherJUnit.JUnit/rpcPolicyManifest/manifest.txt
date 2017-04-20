@@ -1,0 +1,5 @@
+# Module com.google.gwt.sample.stockwatcher.StockWatcherJUnit.JUnit
+# RPC service class, partial path of RPC policy file
+com.google.gwt.logging.shared.RemoteLoggingService, 514C1E9BEB3786922332A12DDF900DC2.gwt.rpc
+com.google.gwt.sample.stockwatcher.client.StockPriceService, 69B79C6C9480A9F7D6B6D7B31CC3A8F6.gwt.rpc
+com.google.gwt.junit.client.impl.JUnitHost, 96393FD5B90EFD77EACE5B4F721C3D47.gwt.rpc

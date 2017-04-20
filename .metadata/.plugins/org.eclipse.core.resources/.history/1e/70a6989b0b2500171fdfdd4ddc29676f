@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="todolist">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.gwtproject.tutorial.todolist' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/todolist/greet" class="org.gwtproject.tutorial.server.GreetingServiceImpl" />
+
+</module>
